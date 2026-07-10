@@ -1,11 +1,21 @@
-id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
-1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
-2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
-3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
-4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
-5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
-6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
-7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
-8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
-9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
-10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness,popularity,release_decade,sub_mood,language,duration_sec
+1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18,72,2020s,uplifting,en,210
+2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71,58,2020s,dreamy,en,185
+3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10,65,2010s,aggressive,en,245
+4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86,45,2020s,peaceful,en,200
+5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05,80,2020s,pumped,en,195
+6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92,30,2010s,ethereal,en,320
+7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89,40,2010s,warm,en,275
+8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22,68,2020s,nostalgic,en,230
+9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78,55,2020s,studious,en,180
+10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35,62,2020s,breezy,en,215
+11,Ex-Factor,Lauryn Hill,r&b,heartbreak,0.45,78,0.30,0.55,0.60,88,1990s,vulnerable,en,370
+12,Remedy,Cold,alt-rock,dark,0.72,120,0.35,0.45,0.15,55,2000s,brooding,en,260
+13,Bichiyal,Bad Bunny & Yaviah,reggaeton,hype,0.88,95,0.75,0.90,0.05,92,2020s,party,es,215
+14,TUQLO,Fuerza Regida,corridos,intense,0.80,130,0.65,0.72,0.20,85,2020s,bold,es,200
+15,Human Nature,Michael Jackson,pop,romantic,0.48,93,0.75,0.65,0.35,95,1980s,dreamy,en,245
+16,Fainting Spells,AFI,alt-rock,melancholic,0.65,115,0.30,0.50,0.25,42,2000s,brooding,en,250
+17,Cure My Tragedy,Cold,alt-rock,melancholic,0.60,100,0.28,0.42,0.30,50,2000s,vulnerable,en,270
+18,Every Ghetto Every City,Lauryn Hill,hip-hop,nostalgic,0.70,98,0.80,0.78,0.25,82,1990s,reflective,en,310
+19,Make Like a Tree (Get Out),Thank You Scientist,prog-rock,energetic,0.85,140,0.60,0.55,0.12,35,2010s,chaotic,en,290
+20,Suffocate,Cold,alt-rock,dark,0.70,108,0.25,0.40,0.18,48,2000s,brooding,en,255

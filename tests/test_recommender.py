@@ -59,3 +59,44 @@ def test_explain_recommendation_returns_non_empty_string():
     explanation = rec.explain_recommendation(user, song)
     assert isinstance(explanation, str)
     assert explanation.strip() != ""
+
+
+def test_acoustic_melancholic_user_prefers_matching_songs():
+    songs = [
+        Song(
+            id=1,
+            title="Cure My Tragedy",
+            artist="Cold",
+            genre="alt-rock",
+            mood="melancholic",
+            energy=0.6,
+            tempo_bpm=100,
+            valence=0.28,
+            danceability=0.42,
+            acousticness=0.30,
+        ),
+        Song(
+            id=2,
+            title="Gym Hero",
+            artist="Max Pulse",
+            genre="pop",
+            mood="intense",
+            energy=0.93,
+            tempo_bpm=132,
+            valence=0.77,
+            danceability=0.88,
+            acousticness=0.05,
+        ),
+    ]
+    user = UserProfile(
+        favorite_genre="alt-rock",
+        favorite_mood="melancholic",
+        target_energy=0.65,
+        likes_acoustic=True,
+    )
+    rec = Recommender(songs)
+    results = rec.recommend(user, k=2)
+
+    # Alt-rock melancholic song should rank above pop intense song
+    assert results[0].title == "Cure My Tragedy"
+    assert results[0].genre == "alt-rock"
